@@ -1,0 +1,38 @@
+.list{
+    color: white;
+    width: 300px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: #2f4f8f;
+    height: 50px;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+.list p{
+  padding: 10px;  
+  position: relative;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+} 
+.list p span{
+    position: absolute;
+    right: 10px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    cursor: pointer;
+}
+.faicons{
+    margin: 0 5px;
+    font-size: 15px;
+    
+}
+.list p input {
+    background-color: transparent;
+    border: 0;
+    color: white;
+    font-size: 18px;
+}
+.list p input:focus{
+    outline: none;
+}
+
